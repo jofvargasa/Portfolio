@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Poppin;
+    src: url(./utility/Poppins-Light.ttf);
+}
+
+body {
+    background-color: #001220;
+    font-family: Poppin;
+    margin: 0px 0px;
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    margin: 0px 20px;
+    list-style-type: none;
+}
+.btnMenu{
+    color: #fff;
+    text-decoration: none;
+}
+.btnMenu:hover{
+   color: #3c56ff;  
+}
+.button-contact{
+    display: flex;
+    align-items: center;
+}
+.btn:hover{
+    display: block;
+    background-color: #fff;
+    color: #001220;
+    border-color: #fff;
+   }
+.btn{
+    width: auto;
+    height: 40px;
+    background-color: #2e44d4;
+    font-size: 16px;
+    border: solid #2e44d4 1px;
+    border-radius: 10vw;
+    color: #fff;
+}
+
+
+.container{
+    width: 100%;
+    margin: 140px 0px;
+    display: flex;
+    justify-content: center;
+}
+.basicInfo{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0px 40px;
+}
+.greeting{
+    margin: 0px;
+    color: #707070;
+    font-size: 18px;
+}
+.myName{
+    color: #2e44d4;
+}
+.description{
+    margin: 5px 0px;
+    font-size: 30px;
+}
+.picture{
+    background-color: #2e44d4;
+    width:250px;
+    height:250px;
+    border-radius: 100vw; 
+    box-shadow: -20px -20px 60px #000f1b,
+                20px 20px 60px #4e4e4e; 
+}
+.myPhoto{
+    width:250px;
+    border-radius: 100vw;
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.title1{
+    font-size: 35px;
+    margin: 0px;
+    color: #2e44d4;
+}
+.title2{
+    font-size: 25px;
+    margin: 0px;
+}
+.wrapper1{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.logo {
+    height: 100px;
+}
+.nameTech{
+    margin: 0;
+}
+.cardSkill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    background-color: #002247;
+    border-radius: 10px;
+}
+
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.cardProject{
+    height: auto;
+    background-color: #002247;
+    border-radius: 5px;
+}
+.projectView{
+    height: 240px;
+    width: 525px;
+    border-radius: 5px;
+}
+.information{
+    margin: 5px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.titleProject{
+    font-size: 25px;
+    margin: 0px;
+    color: #a9b4ff;
+}
+.descriptionProject{
+    text-align: justify;
+    width: 430px;
+    margin: 5px 0px;
+    color: #aaaaaa;
+}
+
+
+.me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.resume{
+    width: 500px;
+}
+
+.downloadButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.downloadCv{
+    margin: 10px;
+    box-shadow: -30px -30px 80px #741fae,
+                 2px 2px 80px #741fae; 
+}
+
+.downloadC{
+    margin: 10px;
+    box-shadow: 2px 2px 80px #741fae,
+                30px 30px 80px #741fae; 
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(5turn, #001220, #002247, #001220);
+    height: 250px;
+}
+.socialNetwork{
+    display: flex;
+    justify-content: center;
+}
+.titleFooter{
+    font-size: 18px;
+    color: #eaeaea;
+}
+.social{
+    width: 25px;
+    margin: 10px;
+}
+
